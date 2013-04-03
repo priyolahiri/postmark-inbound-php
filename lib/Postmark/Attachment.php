@@ -18,8 +18,11 @@ Class Attachment extends \Postmark\Inbound {
         return base64_decode(chunk_split($this->Attachment->Content));
     }
     
-    public function Download($directory)
+    public function Download($directory, $file = NULL)
     {
-        file_put_contents($directory . $this->Name, $this->_read());
+        if ($file == NULL) {
+            $file = $this->Name;
+        }
+        file_put_contents($directory . $file, $this->_read());
     }
 }
