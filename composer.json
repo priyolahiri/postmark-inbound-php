@@ -18,8 +18,5 @@
     },
     "autoload": {
         "psr-0": { "Postmark": "lib/" }
-    },
-    "extras": {
-    	"3.0": "v3.0"
     }
 }
