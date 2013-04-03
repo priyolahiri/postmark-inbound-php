@@ -1,5 +1,5 @@
 {
-    "name": "jjaffeux/postmark-inbound-php",
+    "name": "priyolahiri/postmark-inbound-php",
     "type": "library",
     "description": "Postmark Inbound PHP Wrapper",
     "version": "2.1.0",
